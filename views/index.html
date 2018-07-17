@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>.: Express Auth :.</title>
+	<style>
+		#konten{
+			display: grid;
+			grid-template-columns: 50% 50%;
+			max-width: 960px;
+			margin-left: 100px;
+			margin-right: 100px;
+		}
+	</style>
+</head>
+<body>
+	<center>
+	<h1>Simple Express Authentication</h1>
+	<hr>
+	<div id="konten">
+
+		<div class="signup">
+			<div>
+				<h3>Sign Up</h3>
+				<div>
+					<form action="/" method="post">
+						<input type="text" name="email" placeholder="Email..." required="">
+						<br><br>
+						<input type="text" name="username" placeholder="Username..." required="">
+						<br><br>
+						<input type="password" name="password" placeholder="Password..." required="">
+						<br><br>
+						<input type="password" name="passwordConf" placeholder="Confirm Password..." required="">
+						<br><br>
+						<input type="submit" value="Register Here!">
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		<div class="login">
+			<div>
+				<h3>Login</h3>
+				<div>
+					<form action="/" method="post">
+						<input type="text" name="logemail" placeholder="Email..." required="">
+						<br><br>
+						<input type="password" name="logpassword" placeholder="Password..." required="">
+						<br><br>
+						<input type="submit" value="Login Now!">
+					</form>
+				</div>
+			</div>
+		</div>
+
+	</div><br><hr>
+	<p> &copy; 2018 lintangwisesa </p>
+</center>				
+</body>
+</html>
