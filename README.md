@@ -14,7 +14,7 @@
   $ db.createCollection('users')
 ```
 
-#### 2. Clone the proect from my repo:
+#### 2. Clone the project from my repo:
 
 ```shell
   $ git clone https://github.com/LintangWisesa/Express-Authentication.git
