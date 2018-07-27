@@ -17,7 +17,7 @@
 #### 2. Clone the project from my repo:
 
 ```shell
-  $ git clone https://github.com/LintangWisesa/Express-Authentication.git
+  $ git clone https://github.com/LintangWisesa/Express-MongoDB-Authentication.git
 ```
 
 #### 3. Go to the repo then install all packages needed:
