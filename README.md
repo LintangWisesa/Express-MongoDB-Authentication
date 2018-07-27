@@ -23,7 +23,7 @@
 #### 3. Go to the repo then install all packages needed:
 
 ```shell
-  $ cd Express-Authentication
+  $ cd Express-MongoDB-Authentication
 
   $ npm install
 ```
